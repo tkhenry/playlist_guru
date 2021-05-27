@@ -1,0 +1,14 @@
+<html>
+<h1>
+    Welcome to Playlist Guru!
+</h1>
+<body>
+    <ul>
+        {% for name, link in data.items() %}
+            <p>
+                <a href={{link}}> {{name}} </a>
+            </p>
+        {% endfor %}
+    </ul>
+</body>
+</html>

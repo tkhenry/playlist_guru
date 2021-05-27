@@ -3,12 +3,12 @@ import urllib
 import base64
 
 auth_url = "https://accounts.spotify.com/authorize"
-client_id = ''
-client_secret = ''
+client_id = '9427317fbcc04f0d966ebb2255270347'
+client_secret = '293eeb24c82a4e1f867adab6453e6e96'
 uri_red = 'http://127.0.0.1:5000/auth'
 redirect_uri = {'redirect_uri':'http://127.0.0.1:5000/auth'}
 token_url = 'https://accounts.spotify.com/api/token'
-scope = 'playlist-read-private'
+scope = 'playlist-read-private%20user-read-private'
 response_type = 'code'
 
 client_credentials = f'{client_id}:{client_secret}'
